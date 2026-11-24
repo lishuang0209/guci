@@ -1,0 +1,228 @@
+.projects-page { padding-block-start: clamp(10px, 2.25vw, 32px); }
+
+.projects-heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 18px;
+  margin-bottom: 54px;
+}
+
+.projects-heading h1 {
+  color: var(--ink);
+  font: 700 clamp(32px, 3.1vw, 44px)/1.2 var(--sans);
+  letter-spacing: -.035em;
+}
+
+.projects-heading p { margin-top: 12px; color: var(--muted); font-size: 16px; }
+.project-new-button { flex: none; gap: 8px; min-height: 45px; padding-inline: 17px; }
+.project-new-button > span { font-size: 22px; font-weight: 400; line-height: 1; }
+
+.project-collection h2, .project-example h2 {
+  margin-bottom: 28px;
+  font: 700 22px/1.4 var(--sans);
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.project-card, .project-example-card {
+  min-width: 0;
+  min-height: 152px;
+  transition: border-color .16s ease, background-color .16s ease;
+}
+
+.project-card:hover, .project-example-card:hover {
+  border-color: var(--accent);
+  background: var(--surface);
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 18px 22px;
+}
+
+.project-card-markers {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--muted);
+}
+
+.project-folder {
+  position: relative;
+  display: block;
+  flex: none;
+  width: 24px;
+  height: 17px;
+  margin-top: 4px;
+  border: 1px solid currentColor;
+  border-radius: 3px;
+  color: var(--muted);
+}
+
+.project-folder::before {
+  position: absolute;
+  top: -5px;
+  left: -1px;
+  width: 11px;
+  height: 6px;
+  border: 1px solid currentColor;
+  border-bottom: 0;
+  border-radius: 3px 3px 0 0;
+  background: var(--white);
+  content: '';
+}
+
+.project-card:hover .project-folder::before,
+.project-empty .project-folder::before,
+.project-example-preview-empty .project-folder::before {
+  background: var(--surface);
+}
+
+.project-card-arrow { font-size: 22px; font-weight: 500; line-height: 24px; }
+.project-card-copy, .project-example-copy { min-width: 0; }
+.project-card h3, .project-example-card h3 {
+  margin: 0;
+  overflow: hidden;
+  font-size: 18px;
+  line-height: 1.45;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.project-card p, .project-example-copy p, .project-empty p {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.project-card p { margin-top: 5px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.project-empty {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  min-height: 94px;
+  padding: 18px 22px;
+  border-style: dashed;
+  background: var(--surface);
+}
+
+.project-empty strong { font-size: 16px; }
+.project-empty p { margin-top: 3px; }
+.project-example { margin-top: 44px; }
+
+.project-example-card {
+  display: grid;
+  grid-template-columns: minmax(0, min(44%, 160px)) minmax(0, 1fr);
+  align-items: center;
+  gap: 18px;
+  padding: 12px;
+}
+
+.project-example-preview {
+  width: 100%;
+  height: 126px;
+  border-radius: 6px;
+  background: var(--surface);
+  object-fit: cover;
+  object-position: center;
+}
+
+.project-example-preview-empty { display: grid; place-items: center; }
+
+.project-example-action {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  margin-top: 9px;
+  color: var(--ink);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.project-example-card:hover .project-example-action { color: var(--accent); }
+.project-header { margin-bottom: 14px; overflow-wrap: anywhere; }
+.project-header h1 { font: 700 clamp(27px, 3.3vw, 38px)/1.2 var(--sans); letter-spacing: -.03em; }
+.project-header p { margin-top: 5px; color: var(--muted); }
+
+.workspace-tabs {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 16px;
+  margin-bottom: 22px;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scroll-margin-top: 10px;
+}
+
+.workspace-tab-group { display: flex; flex: none; gap: 4px; }
+
+.workspace-tab {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  min-height: 44px;
+  padding: 6px clamp(8px, 1.2vw, 16px);
+  border-bottom: 2px solid transparent;
+  color: var(--muted);
+  font-size: 14px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.workspace-tab:hover { color: var(--accent); background: var(--surface); }
+.workspace-tab[aria-selected="true"] { border-bottom-color: var(--accent); color: var(--accent); }
+.workspace-tab:focus-visible { outline-offset: -4px; }
+#workspace-panel { scroll-margin-block-start: 16px; }
+
+dialog:has(.project-create) { width: min(490px, calc(100vw - 30px)); }
+.project-create { display: grid; gap: 13px; }
+.project-create-field { color: var(--ink); font-weight: 600; }
+.project-create-field > span { margin-inline-start: 3px; color: var(--muted); font-size: 12px; font-weight: 400; }
+.project-create-field > input { display: block; margin-top: 4px; font-weight: 400; }
+.project-template { display: grid; gap: 7px; margin: 0; padding: 0; border: 0; }
+.project-template legend { padding: 0; margin-bottom: 5px; }
+.project-template label {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 9px 11px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.project-template label:has(:checked) { border-color: var(--accent); background: var(--accent-soft); }
+.project-template input[type="radio"] {
+  flex: none;
+  width: auto;
+  min-height: 0;
+  margin: 4px 0 0;
+  padding: 0;
+  accent-color: var(--accent);
+}
+
+.project-template small { display: block; color: var(--muted); font-size: 12px; }
+.project-create-error { color: #8a3525; }
+
+@media (max-width: 960px) {
+  .project-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 620px) {
+  .projects-heading { flex-wrap: wrap; margin-bottom: 38px; }
+  .projects-heading p { margin-top: 8px; font-size: 14px; }
+  .project-new-button { margin-inline-start: auto; }
+  .project-collection h2, .project-example h2 { margin-bottom: 16px; }
+  .project-grid { grid-template-columns: minmax(0, 1fr); gap: 12px; }
+  .project-example { margin-top: 32px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .project-card, .project-example-card { transition: none; }
+}

@@ -1,0 +1,46 @@
+{
+  "productId": "longway-146",
+  "baseImage": "01-product/146-source.jpg",
+  "artwork": "02-artwork/lemon-blue-flowers-original.png",
+  "coordinateSpace": "normalized_image_top_left_origin",
+  "purpose": "visual_prototype_only",
+  "editableArea": {
+    "x": 0.3,
+    "y": 0.29,
+    "width": 0.4,
+    "height": 0.4
+  },
+  "options": [
+    {
+      "id": "print-a",
+      "label": "Print A",
+      "centerX": 0.5,
+      "centerY": 0.48,
+      "widthRatio": 0.24,
+      "rotationDegrees": 0
+    },
+    {
+      "id": "print-b",
+      "label": "Print B",
+      "centerX": 0.5,
+      "centerY": 0.48,
+      "widthRatio": 0.34,
+      "rotationDegrees": 0
+    }
+  ],
+  "dimensionUnit": "image_ratio_not_mm",
+  "actualPrintSizeMm": null,
+  "notes": "贴图位置为 146 原照上的初始显示参数。widthRatio 表示有效图案区域宽度占底图宽度的比例，artworkContentBoundsPx 是原稿中 alpha ≥ 16 的图案边界，坐标顺序为左、上、右、下。A/B 的 AI 预览用于展示大小差异，准确贴图以同一透明原稿及编辑参数为准。实际印花尺寸及曲面效果待打样确认。",
+  "visualPreviews": {
+    "print-a": "02-artwork/146-print-A-ai-preview.png",
+    "print-b": "02-artwork/146-print-B-ai-preview.png",
+    "status": "AI illustration, not pixel-exact template export"
+  },
+  "artworkName": "Lemon & Blue Flowers",
+  "artworkContentBoundsPx": [
+    330,
+    108,
+    1225,
+    899
+  ]
+}

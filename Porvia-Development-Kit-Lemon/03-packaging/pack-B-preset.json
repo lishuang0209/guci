@@ -1,0 +1,40 @@
+{
+  "id": "pack-b-v1",
+  "version": 1,
+  "label": "Pack B",
+  "nameEn": "Rigid Gift Box",
+  "colorHex": "#243E32",
+  "colorStatus": "approximate_demo_design_not_factory_color_standard",
+  "referenceAssets": [
+    "03-packaging/pack-B-approved-visual.png",
+    "03-packaging/pack-B-supplier-structure.jpg"
+  ],
+  "productAsset": "01-product/146-source.jpg",
+  "graphicAsset": "02-artwork/lemon-blue-flowers-original.png",
+  "contents": [
+    {
+      "product": "146 cup",
+      "quantity": 1
+    },
+    {
+      "product": "146 square saucer",
+      "quantity": 1
+    }
+  ],
+  "instructions": "Deep forest-green rigid lift-off-lid box, cream fitted insert, one small gold-foil lemon sprig centered on lid, restrained decoration. Preserve the identity of the real cup and saucer. Exactly one of each. Show the entire open box. Keep existing product decoration unless an approved print asset is supplied. All measurements unknown. No text or dimensions.",
+  "referenceRoles": [
+    "real photo determines product identity",
+    "AI visual guides aesthetics only",
+    "supplier packaging photo guides general structure only, not product identity or fit"
+  ],
+  "requiredReview": [
+    "cup handle and square saucer recognizable",
+    "correct item count",
+    "no accidental product decoration change",
+    "restrained graphics",
+    "no claimed manufacturing dimensions"
+  ],
+  "productionStatus": "concept_only",
+  "disclaimerEn": "Packaging concept for review. Final dimensions, materials and insert fit are subject to factory confirmation.",
+  "exampleCupPrint": "Lemon & Blue Flowers"
+}

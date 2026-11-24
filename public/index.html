@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Porvia 骨瓷出口提案工作台">
+  <title>Porvia · 骨瓷出口工作台</title>
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/projects.css">
+  <link rel="stylesheet" href="/catalog.css">
+</head>
+<body>
+  <a class="skip" href="#main">跳到工作区</a>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a href="/" class="brand" aria-label="Porvia 项目列表">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+        <strong>Porvia</strong>
+      </a>
+      <nav class="navigation" aria-label="工作台导航">
+        <a class="nav-link" href="/">项目列表</a>
+        <a class="nav-link" href="/library">商品资料库</a>
+      </nav>
+      <button class="model-settings-link" type="button" data-action="model-settings">
+        <span class="nav-icon" aria-hidden="true">⚙︎</span>模型设置
+      </button>
+    </div>
+  </header>
+  <main id="main" tabindex="-1"><p class="loading">正在打开 Porvia 工作台…</p></main>
+  <div id="toast" class="toast" role="status" hidden></div>
+  <dialog id="dialog" aria-labelledby="dialog-title"><div id="dialog-content"></div></dialog>
+  <script type="module" src="/app.mjs"></script>
+</body>
+</html>

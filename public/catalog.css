@@ -1,0 +1,72 @@
+.catalog-page { padding-block-start: clamp(10px, 2.25vw, 32px); }
+.catalog-heading {
+  align-items: flex-end;
+  margin-bottom: 28px;
+}
+.catalog-search { width: min(100%, 370px); margin-bottom: 16px; }
+.catalog-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+.catalog-picker .catalog-grid {
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 176px), 1fr));
+  gap: 12px;
+}
+.catalog-card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.catalog-card-image {
+  aspect-ratio: 3 / 2;
+  object-fit: contain;
+  background: var(--surface);
+}
+.catalog-card-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 12px;
+  padding: 12px;
+}
+.catalog-card-copy { flex: 1; overflow-wrap: anywhere; }
+.catalog-sku { color: var(--muted); font-size: 12px; }
+.catalog-card-name { margin: 2px 0 0; font-size: 16px; line-height: 1.4; }
+.catalog-card-copy p { margin-top: 3px; color: var(--muted); font-size: 12px; }
+.catalog-card-body > .actions { margin: 0; }
+.catalog-picker > p { margin-bottom: 12px; color: var(--muted); }
+
+dialog:has(.catalog-form) { width: min(520px, calc(100vw - 30px)); }
+.catalog-form { display: grid; gap: 12px; }
+.catalog-form label { display: grid; gap: 5px; color: var(--body-ink); font-weight: 600; }
+.catalog-form input, .catalog-form label .tiny { font-weight: 400; }
+.catalog-form input[type="file"] { min-width: 0; width: 100%; color: var(--muted); }
+.catalog-form input::file-selector-button {
+  padding: 6px 10px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--paper);
+  color: var(--ink);
+  font: inherit;
+  cursor: pointer;
+}
+.catalog-image-hint { margin-top: 4px; }
+.catalog-form-image {
+  width: 112px;
+  height: 74px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  object-fit: contain;
+  background: var(--surface);
+}
+.catalog-form-error { color: #8a3525; }
+
+@media (max-width: 760px) {
+  .catalog-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+}
+
+@media (max-width: 560px) {
+  .catalog-card-body { gap: 9px; padding: 10px; }
+  .catalog-card-name { font-size: 14px; }
+}

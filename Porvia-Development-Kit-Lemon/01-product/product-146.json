@@ -1,0 +1,52 @@
+{
+  "id": "longway-146",
+  "supplier": "Longway",
+  "sku": "146",
+  "nameZh": "白色骨瓷杯与方碟",
+  "nameEn": "White Bone China Cup & Square Saucer",
+  "material": {
+    "value": "Fine bone china",
+    "status": "supplier_published"
+  },
+  "capacity": {
+    "value": 210,
+    "unit": "ml",
+    "status": "supplier_published"
+  },
+  "cupHeight": {
+    "value": 7.6,
+    "unit": "cm",
+    "status": "supplier_published"
+  },
+  "cupDiameter": {
+    "value": 7.2,
+    "unit": "cm",
+    "status": "supplier_published"
+  },
+  "saucerPublishedDimension": {
+    "value": 14,
+    "unit": "cm",
+    "sourceLabel": "Saucer Diameter",
+    "status": "supplier_published",
+    "note": "官网称Diameter，照片为方碟，不能直接视为经实测确认的长宽。"
+  },
+  "cupWidthIncludingHandleMm": null,
+  "saucerLengthMm": null,
+  "saucerWidthMm": null,
+  "saucerHeightMm": null,
+  "weightGrams": null,
+  "setContents": [
+    {
+      "name": "cup",
+      "quantity": 1
+    },
+    {
+      "name": "saucer",
+      "quantity": 1
+    }
+  ],
+  "sourceUrl": "https://luxurybonechina.com/Products/fine-bone-china-cup-saucer-set/",
+  "checkedOn": "2026-11-20",
+  "factoryConfirmed": false,
+  "notes": "产品规格引用公开资料。工作台中的杯碟配图为自制示意图。"
+}

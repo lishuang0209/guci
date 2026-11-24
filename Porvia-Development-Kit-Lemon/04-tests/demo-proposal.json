@@ -1,0 +1,31 @@
+{
+  "id": "demo-001",
+  "isSynthetic": true,
+  "customerName": "Demo Hotel Buyer",
+  "use": "hotel breakfast",
+  "quantity": 500,
+  "quantityQualifier": "approximately",
+  "quantityUnit": "sets",
+  "selectedProducts": [
+    "longway-146"
+  ],
+  "primaryProduct": "longway-146",
+  "printOptions": [
+    "print-a",
+    "print-b"
+  ],
+  "packagingOptions": [
+    "pack-a-v1",
+    "pack-b-v1"
+  ],
+  "buyerConfirmedSelection": null,
+  "version": 1,
+  "pages": [
+    "lifestyle",
+    "products",
+    "print",
+    "packaging"
+  ],
+  "replyExample": "Product 146 / Print A / Pack B / Approximately 500 sets",
+  "collection": "Lemon & Blue Flowers"
+}

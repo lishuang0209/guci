@@ -1,0 +1,106 @@
+{
+  "files": [
+    {
+      "path": "01-product/146-source-collage.jpg",
+      "bytes": 35172,
+      "sha256": "0ada7c86e2a8e74da4a60a1d76dce5e79be1dc9994921698fb541753c2313d20"
+    },
+    {
+      "path": "01-product/146-source.jpg",
+      "bytes": 35202,
+      "sha256": "64e88e1407402a9b2307ba8b3b44efa1a5f6ab04f89f53b59cf5ad38deaf6040"
+    },
+    {
+      "path": "01-product/product-146.json",
+      "bytes": 1283,
+      "sha256": "8a839c309ca0ce2ae8705badb3a367bcb51f329e41f866463df9f267b2490e7d"
+    },
+    {
+      "path": "02-artwork/146-print-A-ai-preview.png",
+      "bytes": 14785,
+      "sha256": "eee07338f3fef549d846aad7b3524ff0b4a128601ac74013084ce103b3136e23"
+    },
+    {
+      "path": "02-artwork/146-print-B-ai-preview.png",
+      "bytes": 14340,
+      "sha256": "74aad702f8f39d99e2bd5958d782a985565b03b0176fc24c2e1599cab5fe54d4"
+    },
+    {
+      "path": "02-artwork/lemon-blue-flowers-original.png",
+      "bytes": 3847,
+      "sha256": "831df0aaa98aaeb27432851e8824a85152fe8e049ea01fc4c2fc77777847dc4f"
+    },
+    {
+      "path": "02-artwork/print-options.json",
+      "bytes": 1440,
+      "sha256": "9f80a3db598d0b2ab999da59c8312728d74553d6eff9744db9df8a426f080ab5"
+    },
+    {
+      "path": "03-packaging/lifestyle-approved-visual.png",
+      "bytes": 14095,
+      "sha256": "c9237537655c39c973442051b9f6c794027f9e5299ef080792f8681ba00846b2"
+    },
+    {
+      "path": "03-packaging/pack-A-approved-visual.png",
+      "bytes": 14554,
+      "sha256": "0e8d189331194795af25cbc45a05b5afbdd5664011ada5cea8ca828a2427da91"
+    },
+    {
+      "path": "03-packaging/pack-A-preset.json",
+      "bytes": 1613,
+      "sha256": "a7f646e3a5aec90b8044e5876ef0ea7063e77425d8349f6901129f3640bdb6b6"
+    },
+    {
+      "path": "03-packaging/pack-A-supplier-structure.jpg",
+      "bytes": 36514,
+      "sha256": "373dedc65556d12a2c72371bf8281772670929d2be34283734028128cd35331f"
+    },
+    {
+      "path": "03-packaging/pack-B-approved-visual.png",
+      "bytes": 14970,
+      "sha256": "3885c3209416fcffa0fc60aeb88989bd7acd954290e82969c58c0584be601a9a"
+    },
+    {
+      "path": "03-packaging/pack-B-preset.json",
+      "bytes": 1588,
+      "sha256": "5150f746a6a33ace9cb2ef126ec356876f9e15808b8897dd80cfb0a62296a3e6"
+    },
+    {
+      "path": "03-packaging/pack-B-supplier-structure.jpg",
+      "bytes": 35437,
+      "sha256": "cb9fdd626c0d6ab49bbcb667da204a1850302064659c3df1fc8b6eb9f8135424"
+    },
+    {
+      "path": "04-tests/demo-proposal.json",
+      "bytes": 643,
+      "sha256": "d138b5090e574d7d7b107d4ce85f255690eabb184f0e80bbac230d801a6eb747"
+    },
+    {
+      "path": "04-tests/inquiry-cases.json",
+      "bytes": 2704,
+      "sha256": "708d2337b0a80f3af9b9523c8f6987266658330c06a8ae6a84fde8d74234e3c2"
+    },
+    {
+      "path": "05-docs/SOURCES.md",
+      "bytes": 284,
+      "sha256": "ab375865da371a99ba0ca0e7cf08dce4b02350470f2036c0384d4c8849f85238"
+    },
+    {
+      "path": "06-factory/factory-request.txt",
+      "bytes": 665,
+      "sha256": "485c6931d1977ce9d4ae0ba56547ff2ff0be175e10d53a583d61e7233bc4fe4c"
+    },
+    {
+      "path": "06-factory/production-fields.json",
+      "bytes": 698,
+      "sha256": "1bf0b6b4653b24026a65c7fcc46fa1d55e52dc6d3603d686961ecd89765ac94b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 400,
+      "sha256": "44bf102f55dffc6e32a4857cef79a25c47da9298211f50a71ff585d7f0ff6982"
+    }
+  ],
+  "count": 20,
+  "purpose": "Local public demonstration with original illustration fixtures"
+}

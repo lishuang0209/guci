@@ -1,0 +1,31 @@
+{
+  "status": "awaiting_factory",
+  "productId": "longway-146",
+  "measurementsMm": {
+    "cupHeight": null,
+    "cupDiameter": null,
+    "cupWidthWithHandle": null,
+    "saucerLength": null,
+    "saucerWidth": null,
+    "saucerHeight": null
+  },
+  "print": {
+    "maxWidthMm": null,
+    "maxHeightMm": null,
+    "edgeClearanceMm": null,
+    "process": null,
+    "artworkApproved": false
+  },
+  "packaging": {
+    "innerLengthMm": null,
+    "innerWidthMm": null,
+    "innerHeightMm": null,
+    "boardMaterial": null,
+    "boardThicknessMm": null,
+    "insertMaterial": null,
+    "insertDrawing": null,
+    "fitTestPassed": false,
+    "transitTestPassed": false
+  },
+  "doNotInferFromImage": true
+}
